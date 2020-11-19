@@ -2,12 +2,12 @@
 
 This is a collection of the examples I tried while learning to implement Neural Networks using Keras. The examples come from the book Deep Learning with Python.
 
-###IMDB
+#IMDB
 Classifying movie reviews as positive or negative. Sentiment analysis. The model achieved 88% accuracy.
 The network used 2 layers with relu activation and 1 with sigmoid, and a loss function binary_crossentropy.
 This was the recommended model. I also experimented with removing a layer, adding a layer, making the layers bigger, changing the loss function, and changing the activation function. They all resulted in lower performance.
 
-###news
+##news
 Classifying new articles into their categories. a multi class classification problem. Achieved 78.5% accuracy.
 The network used 2 layers with relu activation and 1 with softmax, and a loss function categorical_crossentropy.
 
